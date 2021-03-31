@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<html>
+  <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+ <head>
+  <main id="main">
+  <h1 class="header-font" id="title">The X-Files</h1>
+  <h2 class="header-font">The series of all times</h2>
+    </head>
+    <style>
+      main {
+        text-align: center;
+      }
+      
+     .header-font {
+       font-family: New Tegomin;
+       color: white;
+      }
+      
+      .white-text {
+       color: white;
+       font-family: New Tegomin;
+      }
+      
+      h1 {
+       font-size: 54px;       
+      }
+      
+      h2 {
+        padding: 50px;
+      }
+      
+      img {
+        
+        width: 800px;
+        dislay: block;
+        margin: auto;
+      }
+      
+      .sub-header {
+        font-size: 30px;
+      }
+      
+      .sub-header2 {
+        font-size: 20px;
+      }
+      
+      body {
+        background-color: black;
+        padding: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+      
+      h3 {
+        margin-top: 90px;
+      }
+      
+      p {
+        text-align: justify;
+      }
+      
+      .responsive {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        display: block;
+        
+      }
+      
+      #img-caption {
+        text-align: center;
+      }
+      
+      .footer-text {
+        font-family: New Tegomin;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        padding: 20px;
+      }
+      
+      a {
+        color: blue;
+      }
+      
+      a:hover {
+        color: green;
+      }
+      
+
+      
+    </style>
+  
+  
+    <body>
+     <div id="img-div">
+      <img class="responsive" src="https://i.ytimg.com/vi/1ivalBsGlBA/maxresdefault.jpg" alt="X-Files logo with main characters" id="image">
+        
+       <p id="img-caption" class="white-text">
+         Agents Scully and Mulder in the field.
+       </p>
+      </div>
+      
+   <section id="tribute-info">
+
+   <h3 class="header-font sub-header">About the TV-series:</h3>
+     
+     <p class="white-text">The original television series aired from September 10, 1993 to May 19, 2002 on Fox. The program spanned nine seasons, with 202 episodes. A short tenth season consisting of six episodes premiered on January 24, 2016, and concluded on February 22, 2016. Following the ratings success of this revival, The X-Files returned for an eleventh season of ten episodes, which premiered on January 3, 2018, and concluded on March 21, 2018. In addition to the television series, two feature films have been released: The 1998 film The X-Files, which took place as part of the TV series continuity, and the stand-alone film The X-Files: I Want to Believe, released in 2008, six years after the original television run had ended.    
+  </p>
+     
+     <p class="white-text">Read the full article on <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/The_X-Files">Wikipedia</a>
+     
+     <h4 class="header-font sub-header">Inspirations</h4>
+     <h5 class="white-text sub-header2">Chris Carter (Creator/Executive Producer) says:</h5>
+      <p class="white-text"><em>The X-Files</em> was just one of those ideas that seemed to work on a number of levels. Also, it just seemed like a TV series to me. Lots of stories to tell without having to be self-referencing, without having to rely on going into the lives of the characters. But, basically, I just wanted to create and do something as scary as I remember <em>The Night Stalker</em> being when I was in my teens. I was scared out of my wits by that show and I realised that there just wasn't anything scary on television anymore. I also loved <em>The Avengers</em> TV show and that relationship between Steed and Emma Peel; the intensity of the stories. It's the way I sort of instinctively write, so that also fed into my ultimate concept. Then there was <em>The Twilight Zone</em>. Rod Serling was telling fables, almost allegorically. You see a lot of that in <em>The X-Files</em>, too, but each of the episodes of <em>The Twilight Zone</em> had a bigger message, a bigger purpose, and a way to illuminate something about the human condition. We don't set out to do that, we don't set out to be instructive - there's no message behind each <em>X-Files</em> episode. Although there is something you can take from it, we're not teaching.
+      </p>
+     <p class="white-text">Read full article <a id="tribute-link2" target="_blank" href="https://www.empireonline.com/movies/features/x-files-history/">here</a>.</p>
+    </body>
+      </section>
+  </main>
+  <footer class="footer-text">Made by Ewa, X-Files fan
+  </footer>
